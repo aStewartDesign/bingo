@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+
+        <style>
+            body {
+                font-family: 'Marker Felt';
+                text-align: center;
+            }
+
+            .bingo--container {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                height: 100vw;
+                border-right: 1px solid #999;
+                border-top: 1px solid #999;
+            }
+
+            .bingo--square {
+                border-left: 1px solid #999;
+                border-bottom: 1px solid #999;
+                height: 20vw;
+                line-height: 20vw;
+                vertical-align: middle;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Comic Con Bingo</h1>
+        <div id="app"></div>
+        <script src="./app/dest/client.js"></script>
+    </body>
+</html>
